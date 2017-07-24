@@ -74,3 +74,58 @@ header section + div{
   height:50px;
   padding-top: 10px;
 }
+#section1{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.section1{
+  width: 200px;
+}
+.section1 p{
+  font-size: 12px;
+  color: gray;
+}
+.section1 p:first-line{
+  color:black;
+}
+#section2{
+  display: flex;
+  margin-top: 50px;
+}
+#section2 article{
+  padding-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#section2 article p{
+  font-size: 12px;
+  color: gray;
+}
+#section2 article p:first-line{
+  color:black;
+}
+#section2 img{
+  width: 300px;
+  height: 300px;
+}
+#section3 p + div{
+  display: flex;
+}
+.section3{
+  display: flex;
+}
+main{
+  margin-left: 200px;
+  margin-right: 300px;
+}
+h2:before{
+ display: block;
+  content: "";
+  background-color: red;
+  width: 50px;
+  height:3px;
+  }
+  .section3 h2:before{
+    background-color: transparent;
+  } 
