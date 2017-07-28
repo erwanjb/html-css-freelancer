@@ -56,6 +56,11 @@ header nav + a{
   height:50px;
   padding-top: 10px;
   text-decoration: none;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pa
 }
 header section{
   margin-top: 300px;
@@ -79,6 +84,10 @@ header section + a{
   height:50px;
   padding-top: 10px;
   text-decoration: none;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
